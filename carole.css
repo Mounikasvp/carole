@@ -35,13 +35,9 @@
 .header-right{
     display: flex;
     align-items: center;
+    gap: 30px;
 }
-.header-right img {
-    width: 70px;
-}
-#instaImg{
-    width: 50px;
-}
+
 
 .banner{
     display: flex;
@@ -64,6 +60,9 @@
     color: black;
     font-size: 1rem; 
 }
+.banner h2{
+    font-size: 2.2rem;
+}
 .banner a:hover{
     text-decoration: underline;
     color: orange;
@@ -76,9 +75,14 @@
 }
 .dish1 > img,.dish2 > img, .dish3 >img{
     width: 100%;
-   height: 75%;
+   height: 60%;
 }
-
+.banner h2:hover{
+    
+    text-decoration: underline;
+    color:black;
+    
+}
 
 .dish-bottom{
     display: flex;
@@ -161,9 +165,9 @@
     width: 100%;
     height: 100%;
 }
-.cate-2_1 > p:hover,.cate-2_2 > p:hover,.cate-2_3 > p:hover{
+.cate-2_1 > img:hover,.cate-2_2 > img:hover,.cate-2_3 > img:hover{
     background-color: black;
-    cursor: pointer;
+    opacity: 0.6;
 
 }
 
@@ -240,7 +244,7 @@
 .footer-center{
     display: flex;
     gap: 40px;
-    padding-left: 400px;
+    padding-left: 300px;
 }
 .footer-center a{
   text-decoration: none;
@@ -254,14 +258,10 @@
 .footer-right{
     display: flex;
     align-items: center;
-    gap:30px;
+    gap:20px;
 }
-.footer-right img {
-    width: 70px;
-}
-#instaImg{
-    width: 50px;
-}
+
+
 .para{
     position: relative;
     bottom:50px;
